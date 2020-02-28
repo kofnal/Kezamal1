@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219711707321",
+    "firebase_url": "https://kezamal1-f62fc.firebaseio.com",
+    "project_id": "kezamal1-f62fc",
+    "storage_bucket": "kezamal1-f62fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219711707321:android:06d9e17929dfe3cee22368",
+        "android_client_info": {
+          "package_name": "xyz.lavaliva.kezamal1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219711707321-r7cmuk20jn2mh395u873eio5qudk0km0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.lavaliva.kezamal1",
+            "certificate_hash": "d349f98d956693b6e49ca6dd22dd45862d0891b8"
+          }
+        },
+        {
+          "client_id": "219711707321-83rud0158amnqb5hk9t2mh3tda19pfj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfS0WIpea8VqaZj7u0qobuDuSfJfTt8TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219711707321-83rud0158amnqb5hk9t2mh3tda19pfj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

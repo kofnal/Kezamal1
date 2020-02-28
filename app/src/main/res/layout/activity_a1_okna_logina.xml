@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A1OknaLogina">
+
+    <Button
+        android:id="@+id/btRegistracia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/registracia"
+        app:layout_constraintEnd_toEndOf="@+id/etNoTelefona"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/etNoTelefona"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btGetCod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/get_code"
+        app:layout_constraintEnd_toEndOf="@+id/etNoTelefona"
+        app:layout_constraintStart_toStartOf="@+id/etNoTelefona"
+        app:layout_constraintTop_toBottomOf="@+id/etNoTelefona" />
+
+    <EditText
+        android:id="@+id/etNoTelefona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/vah_telefon"
+        android:inputType="phone"
+        android:text="+222 22 22 22 22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRegistracia" />
+
+    <EditText
+        android:id="@+id/etKodSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/kod_iz_sms"
+        android:inputType="phone"
+        android:text="123456"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btGetCod" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/voyti"
+        app:layout_constraintEnd_toEndOf="@+id/etNoTelefona"
+        app:layout_constraintStart_toStartOf="@+id/etNoTelefona"
+        app:layout_constraintTop_toBottomOf="@+id/etKodSMS" />
+</android.support.constraint.ConstraintLayout>

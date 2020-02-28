@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Kezamal1</string>
+    <string name="vah_telefon">Ваш номер телефона</string>
+    <string name="registracia">Регистрация</string>
+    <string name="voyti">Войти</string>
+    <string name="get_code">Получить код</string>
+    <string name="kod_iz_sms">Код из СМС</string>
+    <string name="polzovatel">Пользователь</string>
+    <string name="admin">Администратор организации</string>
+    <string name="rukovoditel">Руководитель проектов</string>
+    <string name="prorab">Прораб</string>
+    <string name="HR">HR</string>
+    <string name="snabjenec">Снабженец</string>
+    <string name="subpodriadhik">Субподрядчик</string>
+    <string name="OTK">ОТК</string>
+    <string name="geodezist">Геодезист</string>
+    <string name="texnadzor">Технадзор</string>
+    <string name="rabohiy">Рабочиий</string>
+    <string name="brigadir">Бригадир</string>
+    <string name="familia">Фамилия</string>
+    <string name="imia">Имя</string>
+    <string name="otchestvo">Отчество</string>
+    <string name="rost">Рост</string>
+    <string name="obuv">Обувь</string>
+    <string name="polnota">Р.одежды</string>
+    <string name="kod_obiekta">Код объекта</string>
+    <string name="vxod_v_obiekt">Вход в объект</string>
+    <string name="zayavka_na_vxod_pokodu">Заявка на вход в объект отправлена администраторам организации</string>
+    <string name="priniat">Принять</string>
+    <string-array name="doljnost_array">
+        <item>rukovoditel</item>
+        <item>prorab</item>
+        <item>brigadir</item>
+        <item>rabohiy</item>
+        <item>texnadzor</item>
+        <item>geodezist</item>
+        <item>OTK</item>
+        <item>subpodriadhik</item>
+        <item>snabjenec</item>
+        <item>HR</item>
+    </string-array>
+</resources>
